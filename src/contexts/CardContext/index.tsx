@@ -3,7 +3,6 @@ import React, { useState, createContext, ReactNode } from 'react';
 
 interface ItemCard {
   img: string;
-  name: string;
   title: string;
   price: number;
 }

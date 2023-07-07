@@ -13,7 +13,7 @@ function CardItems() {
           <Item
           key={index}
           index={index}
-          name={cardItem.name}
+          name={cardItem.title}
           price={cardItem.price}
           />
         ))}
